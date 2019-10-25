@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include <conio.h>
 
+using namespace std;
+
 void Game_1()
 {
 	char p = char(240);
@@ -57,4 +59,15 @@ int main()
 	std::cout << liczba1 + 1;
 	std::cout << std::endl;
 	system("cls");
+  int a;
+	cout << "Prosze podac dlugosc: \n";
+	cin >> a;
+	cout << "\n\n/   \/   \ \n" << "\__    __/ \n";
+	
+	for (int i; i < a;a++)
+	{
+		cout << "  |    |   \n";
+	}
+	cout << "  \__]_/";
+	cout << "\n\n Dlugosc Twojego siusiaka to: " << a << " jednostek.";
 }
