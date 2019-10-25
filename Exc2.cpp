@@ -3,19 +3,37 @@
 int main()
 using namespace std;
 {
-	int a, b, c, d, e;
+	int a;
 	cout << "WLASNIE JESTES W RZYMIE, STOISZ POD BIURKIEM I MASZ DLUGOPIS\n";
 	cout << "Lista kandydatów: \n";
 	cout << "1. Kapitan Bomba \n";
-	cin >> a;
 	cout << "2. Bonus BGC \n";
-	cin >> b;
 	cout << "3. Lech Roch Pawlak \n";
-	cin >> c;
 	cout << "4. Siostry Godlewskie \n";
-	cin >> d;
 	cout << "5. Czarus z chlopakow do wziecia \n";
-	cin >> e;
+	
 
-
+	cout << "Glosuj z glowa mordeczko (wpisuj cyfry odpowiednio do kandydata): \n";
+	cin >> a;
+	if (a = 1)
+	{
+		cout << "Tepe chuje widze dym nad kominem, napierdaaalaaac!";
+	}
+	if (a = 2)
+	{
+		cout << "Jest dobrze w chuj, uwazaj na kobiete, bo Ci sie kiedys wokol palca oplecie";
+	}
+	if (a = 3)
+	{
+		cout << "Rze pachti, sikalafon";
+	}
+	if (a = 4)
+	{
+		cout << "Dojebales jak lysy warkoczem, masz wjechac z Polszy";
+	}
+	if (a = 5)
+	{
+		cout << "No Czarus to jest dobry chlopak, pozdrawiam";
+	}
 }
+
