@@ -4,7 +4,10 @@ using namespace std;
 int main()
 {
 	int a;
-	cout << "/   \/   \ \n" << "\__    __/ \n";
+	cout << "Prosze podac dlugosc: \n";
+	cin >> a;
+	cout << "\n\n/   \/   \ \n" << "\__    __/ \n";
+	
 	for (int i; i < a;a++)
 	{
 		cout << "  |    |   \n";
