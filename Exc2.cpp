@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-	std::cout << "Pieprzyc!";
-	//nie ogarniam
+    cout << "Hello World!\n";
+	cout << "Pieprzyc!";
+	cout << "costam";
 }
