@@ -13,4 +13,5 @@ int main()
 		cout << "  |    |   \n";
 	}
 	cout << "  \__]_/";
+	cout << "\n\n Dlugosc Twojego siusiaka to: " << a << " jednostek.";
 }
