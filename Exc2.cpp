@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-	cout << "Pieprzyc!";
-	//nie ogarniam
-	cout << "siur";
+	int a;
+	cout << "/   \/   \ \n" << "\__    __/ \n";
+	for (int i; i < a;a++)
+	{
+		cout << "  |    |   \n";
+	}
+	cout << "  \__]_/";
 }
